@@ -7,6 +7,7 @@ const getNumber = (e) => {
 }
 const getResult = () => {
   try {
+    // eslint-disable-next-line
     setResult(eval(result))
     
   } catch (error) {
